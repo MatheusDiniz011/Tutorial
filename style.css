@@ -1,0 +1,30 @@
+*{padding: 0;margin: 0;box-sizing: border-box; font-family: Helvetica;}
+
+/*Cabeçalho*/
+header{
+	background-color: #170c31;
+	color: #fff;
+	padding: 15px;
+	text-align: center;
+	border-bottom: 10xp solid #3c10a1;
+}
+
+/*Grid de produtos*/
+.container{
+	background-color: #eee;
+	min-height: 60vh;
+	padding: 50px;
+
+}
+
+footer{
+	background-color: #170c31;
+	color: #fff;
+	border-top: 3px solid #3c10a1;
+	padding: 80px;
+}
+
+.card{
+	width: 31%;
+	display: inline-block;
+}
