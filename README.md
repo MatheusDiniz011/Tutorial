@@ -1,1 +1,101 @@
-# Tutorial
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Jujutsu Higth</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+	 <header>
+	  <h1> Jujutsu Higth</h1>
+	 </header>
+	<!-- Grid de Produtos -->
+	<main class="container">
+	    <section class="products-container"
+		    <div class="card"
+			    <div class="product-image" id="img-1">
+				    <h3>Tênis do Megumi</h3>
+					<p> Este tênis é muito bom pelo fato de...</p>
+					<p>
+					    R$ 
+					  <span class="bold">347,90</span>
+					</p>
+					<a href="#" class="btn">Comprar</a>
+				</div>
+			</div>
+	<div class="card-2"
+			    <div class="product-image" id="img-2">
+				    <h3>Óculos do Satoru</h3>
+					<p>Este óculos é de alta qualidade pois...</p>
+					<p>
+					    R$ 
+					  <span class="bold">189,99</span>
+					</p>
+					<a href="#" class="btn">Comprar</a>
+				</div>
+			</div>
+			<div class="card-3"
+			    <div class="product-image" id="img-3">
+				    <h3>Casaco do Yuji</h3>
+					<p> Este casaco é muito resistente por conta de...</p>
+					<p>
+					    R$ 
+					  <span class="bold">239,85</span>
+					</p>
+					<a href="#" class="btn">Comprar</a>
+				</div>
+			</div>
+			<div class="card-4"
+			    <div class="product-image" id="img-4">
+				    <h3>Meia-Calça da Nobara</h3>
+					<p> Ela é muito aconchegante por causa...</p>
+					<p>
+					    R$ 
+					  <span class="bold">99,90</span>
+					</p>
+					<a href="#" class="btn">Comprar</a>
+				</div>
+			</div>
+			<div class="card-5"
+			    <div class="product-image" id="img-5">
+				    <h3>Conjuto do Nanami</h3>
+					<p> Um conjunto formal, constituido por um terno, gravata e óculos...</p>
+					<p>
+					    R$ 
+					  <span class="bold">2.499,90</span>
+					</p>
+					<a href="#" class="btn">Comprar</a>
+				</div>
+			</div>
+			<div class="card-6"
+			    <div class="product-image" id="img-6">
+				    <h3>Conjunto do Toji</h3>
+					<p> Um conjuto de treinamento, constituido por uma camisa preta colada, uma calça larga branca com cinto de corda e uma sandalia de combate...</p>
+					<p>
+					    R$ 
+					  <span class="bold">545,50</span>
+					</p>
+					<a href="#" class="btn">Comprar</a>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<!-- Rodapé -->
+	  <footer>
+	   <p> 2023 </p>
+	  </footer>
+	</body>
+	</html>
+  
+  *{padding: 0;margin: 0;box-sizing: border-box; font-family: Helvetica;}
+
+/*Cabeçalho*/
+header{
+	background-color: #3db36b;
+	color: #fff;
+	padding: 15px;
+	text-align: center;
